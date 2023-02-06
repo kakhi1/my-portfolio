@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .borderTop{
+        @apply border-t-[1px] border-t-zinc-800;
+    }
+    .borderBottom{
+        @apply border-b-[1px] border-b-zinc-800;
+    }
+    .borderRight{
+        @apply border-r-[1px] border-r-zinc-800;
+    }
+    .borderLeft{
+        @apply border-l-[1px] border-l-zinc-800;
+    }
+    .borderAll{
+        @apply border-[1px] border-zinc-800;
+    }
+}
+/* about me start  */
+.aboutRightLi{
+    @apply text-zinc-400 text-base font-normal flex justify-between items-center border-b-[1px] border-gray-800 py-2
+}
+.aboutRightLiSpan{
+    @apply  bg-designColor text-black uppercase px-4 py-[1px] rounded-md
+}
+.sidenavLi{
+    @apply text-textColor border-b-[1px] border-b-zinc-500 py-4 text-base hover:text-designColor duration-300
+}
